@@ -1,0 +1,20 @@
+{
+  "entities": {
+    "DataTable": {
+      "title": "Data Table",
+      "description": "Serialized list of system objects for synchronization and backup persistence.",
+      "type": "object",
+      "properties": {
+        "list": {
+          "type": "array"
+        }
+      }
+    }
+  },
+  "firestore": {
+    "data_tables/{tableId}": {
+      "schema": "DataTable",
+      "description": "Collection for system database table snapshots."
+    }
+  }
+}

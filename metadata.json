@@ -1,0 +1,6 @@
+{
+  "name": "Educational Exam Platform",
+  "description": "An educational exams and study platform with developer dashboard, achievements, custom courses, and student performance tracking.",
+  "requestFramePermissions": ["microphone", "camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
